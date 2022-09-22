@@ -1,0 +1,22 @@
+{
+  "name": "coffee-or-die",
+  "version": "1.0.0",
+  "description": "CLI Game about the god-like qualities of coffee",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["coffee", "coffee-or-die", "CLI", "command-line", "terminal"],
+  "author": "Keith Hetrick",
+  "license": "ISC",
+  "bin": "./index.js",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.2",
+    "nanospinner": "^1.1.0"
+  }
+}
